@@ -8,7 +8,7 @@
 <body>
     <h1>Cin chào quinhhoa</h1>
     <?php
-    echo "Cin chào quinhhhoa"
+    echo "Cin chào quinhhhoa "
     ?>
 </body>
 </html>
