@@ -106,7 +106,21 @@ echo hs(2,4,6);
     );
     $rand=rand(1,count($random));
     echo 'Số thứ tự ' .$rand .' ' .$random[$rand] .' ' .'lên bảng' ;
-    
+    echo "<pre>";
+    function inHinhChuNhat($cd, $cr) {
+        for ($i = 1; $i < $cd; $i++) {
+            for ($j = 1; $i < $cr ; $j++){
+                if ( $i ==1 || $i == $cd || $j == 1 || $j == $cr){
+                    echo "*";
+                }
+                else {
+                    echo " ";
+                }
+            }
+            echo PHP_EOL;
+        }
+    }
+    echo inHinhChuNhat(5,7);
 ?>
 </body>
 </html>
